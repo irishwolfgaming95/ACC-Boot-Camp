@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Hotel Room Service</h1>
+
+        <h3>Welcome to our Hotel! We hope you enjoy your stay.</h3>
+
+        <p>We value you as our guest! Use this online form to have a hot, delicious breakfast delivered to your room. Please fill out this form before midnight so we can make the proper accomodations. All meals served before 10AM. Tipping is encouraged.</p>
+
+        <form>
+            <p>Hotel Guest Contact Info</p>
+
+            <p>First Name:</p> <input type="text" name="First" required>
+
+            <p>Last Name:</p> <input type="text" name="Last" required>
+
+            <p>Room Number:</p> <input type="number" name="room number" min="0" max="999" maxlength="3" required>
+
+            <p>What time would you like to be served?</p> <input type="time" name="time" required>
+
+            <p>Please choose your entree:</p> <br> <input type="checkbox" name="entree1" value="waffles and chicken"> Waffles and chicken <br>
+            <input type="checkbox" name="entree2" value="pancakes"> Pancakes and syrup <br>
+            <input type="checkbox" name="entree3" value="hash browns"> Hash browns <br>
+            <input type="checkbox" name="entree4" value="bacon and eggs"> Bacon & Eggs <br>
+            <input type="checkbox" name="entree5" value="toast"> Boring ol' toast <br>
+            
+            <p>Would you like extra butter?</p> <br>
+            <input type="radio" name="choice1" value="yes" checked> Yes 
+            <input type="radio" name="choice2" value="no"> No
+            <input type="radio" name="choice3" value="surprise"> Surprise me <br>
+
+            <input type="submit" value="submit">
+        </form>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
