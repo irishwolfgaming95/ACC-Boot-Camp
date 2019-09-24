@@ -1,0 +1,17 @@
+*{
+    margin: 1%;
+    padding: 0%;
+}
+
+
+
+
+
+#contact{
+    border: ridge 2px black;
+}
+
+#entrees{
+    border: ridge 2px blue;
+    padding: 0%;
+}
