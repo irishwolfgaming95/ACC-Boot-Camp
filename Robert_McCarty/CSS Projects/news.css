@@ -1,0 +1,24 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #eaf0f2;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #263238;
+    color: #B0BEC5;
+    text-align: center;
+    margin-top: 75px;
+    padding: 50px;
+  }
+
+  .footer a{
+      color: white;
+  }
+
+  .footer a:hover {
+      color: #CFD8DC;
+  }
