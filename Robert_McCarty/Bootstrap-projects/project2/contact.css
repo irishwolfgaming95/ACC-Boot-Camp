@@ -1,0 +1,37 @@
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+  }
+
+ ul {
+    list-style-type: none;
+    float: left;
+    
+ }
+
+ .tittle {
+     float: left;
+     padding-left: 300px;
+ }
+
+ .words {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+#form1 {
+    padding-bottom: 30%;
+    padding-top: 10%;
+}
+
+.feedback {
+    padding-top: 10%;
+    margin: 10%;
+}

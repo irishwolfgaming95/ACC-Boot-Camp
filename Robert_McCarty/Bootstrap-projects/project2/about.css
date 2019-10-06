@@ -1,0 +1,38 @@
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+  }
+
+ ul {
+    list-style-type: none;
+    float: left;
+    
+ }
+
+ .tittle {
+     float: left;
+     padding-left: 300px;
+ }
+
+ h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: bold;
+ }
+
+ .about1{
+     margin: 10%;
+     padding: 1%;
+ }
+
+ #row2 {
+     background-color: rgb(32, 32, 32);
+     color: white;
+ }
