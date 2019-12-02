@@ -1,0 +1,15 @@
+<% include partials/header.ejs %>
+
+
+
+<h3>Here are some great places nearby:</h3>
+
+  <% businesses.forEach((business, i) => { if (i <= 9 ) { %>
+
+   <%- business.name %> <br>
+   
+   <%- business.rating %> <br>
+
+<% }}); %>
+
+<% include partials/footer.ejs %>

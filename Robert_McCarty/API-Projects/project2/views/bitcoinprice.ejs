@@ -1,0 +1,23 @@
+<% include partials/header.ejs %>
+<h1>Bitcoin Price App</h1>
+
+<p>This is the current price:</p>
+
+<% if (radio == "USD") { %>
+    
+    <%- parsedData.bpi.USD.symbol %>
+    <%- parsedData.bpi.USD.rate_float %>
+    
+<% }if (radio == "GBP") { %>
+    
+    <%- parsedData.bpi.GBP.symbol %>
+    <%- parsedData.bpi.GBP.rate_float %>
+   
+<% }if (radio == "EUR") { %>
+    
+    <%- parsedData.bpi.EUR.symbol %>
+    <%- parsedData.bpi.EUR.rate_float %>
+    
+<% }; %>
+
+<% include partials/footer.ejs %>

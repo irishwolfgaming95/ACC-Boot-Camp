@@ -1,0 +1,13 @@
+<% include partials/header.ejs %>
+<h1>Bitcoin Price App</h1>
+
+<form name="radios" action="/currentprice" method="get">
+<input type="radio" name="currency" id="USD" value="USD">USD
+<input type="radio" name="currency" id="GBP" value="GBP">GBP
+<input type="radio" name="currency" id="EUR" value="EUR">EUR 
+<br>
+
+<input type="submit" value="Get Price">
+</form>
+
+<% include partials/footer.ejs %>

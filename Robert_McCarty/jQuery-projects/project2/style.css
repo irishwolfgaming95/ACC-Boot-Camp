@@ -1,0 +1,26 @@
+
+#header {
+    padding: 10px;
+    background-color: gray;
+}
+
+div {
+    margin: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+#submit {
+    margin: 10px;
+}
+
+.error {
+    color: red;
+    margin-left: 5px;
+}
+
+label.error {
+    display: inline;
+  }
